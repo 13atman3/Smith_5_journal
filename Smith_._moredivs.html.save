@@ -1,0 +1,50 @@
+<!docktype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="layout.css" rel="stylesheet">
+        <title>Thats G8 M8, I R8 8/8</title>
+    </head>
+   <body>
+       <div class="container'>
+          <header>
+          <nav>
+              <table>
+                  <tr>	
+		        <td><a href="index.html">Home</a></td>
+		        <td><a href="index.html">History</a></td>
+		        <td><a href="index.html">Schedule</a></td>
+		        <td><a href="index.html">Hobbies</a></td>
+ 		        <td><a href="index.html">Future</a></td>
+                    </tr>
+                </table>
+            </nav>
+	    <section class="main">
+                <h2>Welcome!</h2>
+                <article>
+                    <h3>Schedule</h3>
+                    <p>Proper format for schedule:</p>
+                    <ol>
+		        <li>class 1:Princlpes of audio & video production</li> 
+			<li>class 2:Alegebra 1</li>
+			<li>class 3:Physics 1</li>
+			<li>class 4:Digtal art & media</li>
+			<li>class 5:Web Design</li>
+			<li>class 6:Spanish 1</li>
+			<li>class 7:Geography and English</li>
+			</ol>
+                    </article>
+                </section>
+                <aside></aside>
+		<footer>
+                    <ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="index.html">History</a></li>
+			<li><a href="index.html">Schedule</a></li>
+			<li><a href="index.html">Hobbies</a></li>
+			<li><a href="index.html">Future</a></li>
+		    </ul>   
+                </footer>
+            </div> 
+        </body>
+   </html>

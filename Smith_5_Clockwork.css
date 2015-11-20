@@ -1,0 +1,122 @@
+body {
+	width: auto;
+	height: auto;
+	background-color: black;
+}
+.center {
+        background-color: white;
+        height: 900px ;
+        width: 900px;
+        position: absolute;
+        border-radius: 1000px;
+	right: 400px;
+}
+.twelve {
+        background-color: #5B5E64;
+        height: 100px ;
+        width: 100px;
+        position:absolute ;
+	border-radius: 1000px;
+	right:  800px;
+	top: 10px;
+}
+.one {
+        background-color: #5B5E64;
+        height: 75px ;
+        width: 75px;
+        position:absolute;
+        border-radius: 1000px;
+	right: 650px;
+	top: 50px;
+}
+.two {
+        background-color: #5B5E64;
+        height: 75px ;
+        width: 75px;
+        position:absolute;
+        border-radius: 1000px;
+	right: 500px;
+	top: 150px;	
+}
+.three {
+        background-color: #5B5E64;
+        height: 100px ;
+        width: 100px;
+        position:absolute;
+        border-radius:1000px;
+	right: 410px;
+	top: 350px;
+}
+.four {
+        background-color: #5B5E64;
+        height: 75px ;
+        width: 75px;
+        position:absolute;
+        border-radius: 1000px;
+	right: 500px;
+	top: 675px;
+}
+.five {
+        background-color: #5B5E64;
+        height: 75px ;
+        width: 75px;
+        position:absolute;
+        border-radius: 1000px;
+	right: 650px;
+	top: 775px;
+}
+.six {
+        background-color: #5B5E64;
+        height: 100px ;
+        width: 100px;
+        position:absolute;
+        border-radius:1000px;
+	right: 800px;
+	top: 800px;
+}
+.seven {
+        background-color: #5B5E64;
+        height: 75px ;
+        width: 75px;
+        position:absolute;
+        border-radius: 1000px;
+	right: 1050px;
+	top: 750px;
+}
+.eight {
+        background-color: #5B5E64;
+        height: 75px ;
+        width: 75px;
+        position:absolute;
+        border-radius: 1000px;
+	right: 1150px; 
+	top: 625px;
+}
+.nine {
+        background-color: #5B5E64;
+        height: 100px ;
+        width: 100px;
+        position:absolute;
+        border-radius: 1000px;
+	right: 1185px;
+	top: 350px; 
+}
+.ten {
+        background-color: #5B5E64;
+        height: 75px;
+        width: 75px;
+        position:absolute;
+        border-radius: 1000px;
+	right: 1120px;
+	top: 150px;
+}
+.eleven {
+        background-color: #5B5E64;
+        height: 75px;
+        width: 75px;
+        position:absolute;
+        border-radius: 1000px;
+	right:1000px;
+	top: 60px;
+}
+

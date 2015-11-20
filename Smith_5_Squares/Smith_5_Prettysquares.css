@@ -1,0 +1,45 @@
+body {
+	width: auto;
+	height: auto;
+}
+
+.blackbox {
+	background-color: black;
+	height: 200px;
+	width: 150px;
+	position:fixed;
+	right: 100px;
+}
+
+.greenbox {
+	background-color: green;
+	height: 200px;
+	width: 150px;
+	position: relative:
+	right: 1400px;
+}
+
+.greybox {
+	background-color: gray;
+	height: 100px;
+	width: 200px;
+	position: fixed;
+	right: 250px;
+}
+
+.redbox {
+	background-color: red;
+	height: 300px;
+	width: 30px;
+	position: absolute;
+	right: 250px;	
+}
+
+.lightbluebox {
+	background-color: #00fcff;
+	height: 30px;
+	width: 600px;
+	position: absolute;
+	right: 350px;
+}
+
