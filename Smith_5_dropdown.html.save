@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dropdown Menu</title>
+	<meta name="keywords" content="d22 is awesome; ninja">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="Smith_5_Dropdown.css">
+
+<!-- dd menu -->
+<script type="text/javascript">
+var timeout	= 500;
+var closetimer  = 0;
+var ddmenuitem  = 0; 
+
+// open hidden layer
+function mopen(id)
+{
+	// cancel close timer
+	mcancelclosetime();
+
+	// close old layer
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+
+	// get new layer and show it
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.visibility = 'visible';
+
+}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+}
+
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+	  window.clearTimeout(closetimer);
+	  closer = null;
+	}
+}
+
+// close layer when click-out
+document.onclick = mclose;
+</script>
+
+</head>
+<body>
+
+<h1> DROPDOWN menu</h1>
+
+<p>This menu can be located anywhere on a page:</p>
+
+<ul id="sddm">
+     <li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()">Home</a>
+	<div id="m1" onmouseover="mclosetime()" onmouseout="mclosetime()">
+	<a href="#">HTML DropDown</a>
+	<a href="#">DHTML DropDown</a>
+	<a href="#">JavaScript DropDown</a>
+	<a href="#">DropDown Menu</a>
+	<a href="#">CSS DropDown</a>
+	 </div>
+     </li>
+    <li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">Download</a>
+	<div id="m2" onmouseover="mcsncelclosetime()" onmouseout="mclosetime()">
+	<a href="#">Dr.DropDown</a>
+	<a href="#">some menu</a>
+	<a href="#">ninja dropdown</a>
+	<a href="#">another dropdown</a>
+      </li>
+    <li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">Order</a>
+	<div id="m3" onmouseover="mcancelclosetime()" onmouse="mclosetime()">
+	<a href="#">Visa Credit Card</a>
+	<a href="#">Paypal</a>
+	<a href="#">bitcoin</a>
+	<a href="#">Yoshicoin</a>
+	 </div>
+       </li>
+     <li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">Help</a>
+	<div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+	<a href="#">Download Help File</a>
+	<a href="#">Read Online</a>
+	 <div>
+      </li>	
+     <li><a href="#" onmouseover="mopen('m5')" onmpose="mclosetime()">Contact</a>
+	<div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+	<a href="#">E-mail</a>
+	<a href="#">Submit Request Form</a>
+	<a href="#">Call Center</a>
+	 </div>
+     </li>	
+</ul>
+<div style="clear:both"></div>
+
+<div style="clear:both"></div>
+
+</body>
+</html>

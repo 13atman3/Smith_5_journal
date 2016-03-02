@@ -1,0 +1,22 @@
+body {
+	background-color: #FF7400;
+	width: auto;
+	height: auto;
+}
+.Door_two {
+	background-color: blue;
+	height: 10px;
+	width: 10px;
+	border-radius: 100px;
+	right: 800px;
+	top: 200px;	
+	position: absolute;
+	transition-duration: 2s;
+}
+
+.Door_two:hover {
+
+        height: 250px;
+        width: 100px;
+        border-radius: 1000px;
+}

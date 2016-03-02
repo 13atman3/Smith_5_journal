@@ -1,0 +1,75 @@
+body {
+	background-color: white;
+}
+
+header {
+	background-color: auto;
+	height: 83px;
+	width: 1830px;
+	postion: relative;
+	top: -80px;
+	right: 550px;	
+}
+h1 {
+	background-color: blue;
+	color: white;
+	font-size: 70px;
+	font-family: sans-serif;
+	right: 500px;
+	margin: center;
+	text-align: center;
+}
+.container {
+	background-color: yellow;
+	position: absolute;
+	height: 1100px;
+	width: 1830px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+.Red {
+	background-color: red;
+	position: absolute;
+	height: 650px;
+	width: 1830px;
+	bottom: -1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+p1 {
+	color: black;
+	position: absolute;
+	right: -4px;
+	top: 250px;
+	font-size: 25px;
+}
+p2 {
+        color: black;
+        position: absolute;
+        right: -4px;
+        top: 243px;
+	font-size: 25px;
+}
+
+p3 { 
+	color: black;
+	position: abosolute;
+	font-size: 25px;
+	top: 450px;
+	right: -4px;
+}
+p4 { 
+        color: black;
+        position: abosolute;
+        font-size: 25px;
+        top: 600px;
+        right: -4px;
+}
+p5 { 
+        color: black;
+        position: abosolute;
+        font-size: 25px;
+        top: 900px;
+        right: -4px;
+}
+

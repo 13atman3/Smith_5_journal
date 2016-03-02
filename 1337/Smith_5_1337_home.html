@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>1337 Gear</title>
+	<meta name="keywords" content="d22 is awesome; ninja">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="Smith_5_1337_home.css">
+
+<!-- dd menu -->
+<script type="text/javascript">
+var timeout	= 500;
+var closetimer  = 0;
+var ddmenuitem  = 0; 
+
+// open hidden layer
+function mopen(id)
+{
+	// cancel close timer
+	mcancelclosetime();
+
+	// close old layer
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+
+	// get new layer and show it
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.visibility = 'visible';
+
+}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+}
+
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+	  window.clearTimeout(closetimer);
+	  closer = null;
+	}
+}
+
+// close layer when click-out
+document.onclick = mclose;
+</script>
+
+</head>
+<body>
+<header>
+<h1>Welcome to 1337! The Best Website for ALL your gaming hardware needs!</h1>
+</header>
+<p>Look below fot 1337 gamer gear!</p>
+<div class="container">
+<ul id="sddm">
+     <li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()">Controllers</a>
+	<div id="m1" onmouseover="mclosetime()" onmouseout="mclosetime()">
+	<a href="Smith_5_1337_Xboxone.html">Xbox one</a>
+	<a href="Smith_5_1337_PS4.html">PS4</a>
+	<a href="Smith_5_1337_Gamcube.html">Gamecube</a>
+	<a href="Smith_5_1337_Xbox360_PS3.html">Xbox 360/PS3</a>
+	<a href="Smith_5_1337_Mice.html">Mice</a>
+	 </div>
+     </li>
+    <li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()"></a>
+	<div id="m2" onmouseover="mcsncelclosetime()" onmouseout="mclosetime()">
+	 <a href="Smith_5_1337_.html"></a>
+        <a href="Smith_5_1337_.html"></a>
+        <a href="Smith_5_1337_.html"></a>
+        <a href="Smith_5_1337_.html"></a>
+        <a href="Smith_5_1337_.html"></a>
+       </div> 
+      </li>
+    <li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()"></a>
+	<div id="m3" onmouseover="mcancelclosetime()" onmouse="mclosetime()">
+	 <a href="Smith_5_1337_.html"></a>
+        <a href="Smith_5_1337_.html"></a>
+        <a href="Smith_5_1337_.html"></a>
+        <a href="Smith_5_1337_.html"></a>
+        <a href="Smith_5_1337_.html"></a>
+	 </div>
+       </li>
+     <li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">About Us</a>
+	<div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+	 <a href="Smith_5_1337_.html"></a>
+        <a href="Smith_5_1337_.html"></a>
+        <a href="Smith_5_1337_.html"></a>
+        <a href="Smith_5_1337_.html"></a>
+        <a href="Smith_5_1337_.html"></a>
+	 </div>
+      </li>	
+     <li><a href="#" onmouseover="mopen('m5')" onmpose="mclosetime()">Support</a>
+	<div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+	 <a href="Smith_5_1337_FAQs.html">FAQs</a>
+        <a href="Smith_5_1337_Contact.html">Contact Us</a>
+        <a href="Smith_5_1337_.html"></a>
+        <a href="Smith_5_1337_.html"></a>
+        <a href="Smith_5_1337_.html"></a>
+	 </div>
+     </li>	
+</ul>
+</div>
+<div style="clear:both"></div>
+<div class="footer"></div>
+<div style="clear:both"></div>
+
+</body>
+</html>
+

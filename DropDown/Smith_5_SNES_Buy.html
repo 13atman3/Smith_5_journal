@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vintage City</title>
+	<meta name="keywords" content="d22 is awesome; ninja">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="Smith_5_snes_Buy.css">
+
+<!-- dd menu -->
+<script type="text/javascript">
+var timeout	= 500;
+var closetimer  = 0;
+var ddmenuitem  = 0; 
+
+// open hidden layer
+function mopen(id)
+{
+	// cancel close timer
+	mcancelclosetime();
+
+	// close old layer
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+
+	// get new layer and show it
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.visibility = 'visible';
+
+}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+}
+
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+	  window.clearTimeout(closetimer);
+	  closer = null;
+	}
+}
+
+// close layer when click-out
+document.onclick = mclose;
+</script>
+
+</head>
+<body>
+<div class="container">
+<h1>Vintage City</h1>
+
+<p>Buy the SNES now if you dont have it aleady to play all these great games!</p>
+
+<ul id="sddm">
+     <li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()">NES</a>
+	<div id="m1" onmouseover="mclosetime()" onmouseout="mclosetime()">
+	<a href="Smith_5_NES_AAP.html">Action/Adventure/Plaformer games</a>
+	<a href="Smith_5_NES_Shooter.html">Shooter games</a>
+	<a href="Smith_5_NES_Sports.html">Sports games</a>
+	<a href="Smith_5_NES_Fighting.html">Fighting games</a>
+	<a href="Smith_5_NES_Buy.html">Purchase console</a>
+	 </div>
+     </li>
+    <li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">SNES</a>
+	<div id="m2" onmouseover="mcsncelclosetime()" onmouseout="mclosetime()">
+	<a href="Smith_5_SNES_AAP.html">Action/Adventure/Platformer games</a>
+	<a href="Smith_5_SNES_RPGs.html"">RPGs</a>
+	<a href="Smith_5_SNES_Fighting_Beat.html">Fighting/Beat'em up games</a>
+	<a href="Smith_5_SNES_Shooter.html">Shooter games</a>
+	<a href="Smith_5_SNES_Buy.html">Purchase console</a>
+      </li>
+    <li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">N64</a>
+	<div id="m3" onmouseover="mcancelclosetime()" onmouse="mclosetime()">
+	<a href="Smith_5_N64_AAP.html">Action/Adventure/Platformer games</a>
+	<a href="Smith_5_N64_Shooter.html">Shooter games</a>
+	<a href="Smith_5_N64_Racing.html">Racing games</a>
+	<a href="Smith_5_N64_Fighting.html">Fighting games</a>
+	<a href="Smith_5_N64_Buy.html">Purchase console</a>
+	 </div>
+       </li>
+     <li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">Sega Genesis</a>
+	<div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+	<a href="Smith_5_Sega_AAP.html">Action/Adventure/Platformer games</a>
+	<a href="Smith_5_Sega_Fighting_Beat.html">Fighting/Beat'em up games</a>
+	<a href="Smith_5_Sega_Shooter.html">Shooter games</a>
+	<a href="Smith_5_Sega_Racing.html">Racing games</a>
+	<a href="Smith_5_Sega_Buy.html">Purchase console</a>
+	 <div>
+      </li>	
+     <li><a href="#" onmouseover="mopen('m5')" onmpose="mclosetime()">Playstation 1</a>
+	<div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+	<a href="Smith_5_PS1_AA.html">Action/Adventure games</a>
+	<a href="Smith_5_PS1_RPGs.html">RPGs</a>
+	<a href="Smith_5_PS1_Horror.html">Horror games</a>
+	<a href="Smith_5_PS1_Racing.html">Racing games</a>
+	<a href="Smith_5_PS1_Buy.html">Purchase console</a>
+	 </div>
+     </li>	
+</ul>
+</div>
+<div style="clear:both"></div>
+
+<div style="clear:both"></div>
+
+</body>
+</html>
